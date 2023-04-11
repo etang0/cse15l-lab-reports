@@ -8,9 +8,9 @@
 ## Remotely Connecting
 1. [Look up your course account.](https://sdacs.ucsd.edu/~icc/index.php)
 2. Reset the password.
-3. Type the following command into the VS Code terminal, replacing <your username> with your username.
+3. Type the following command into the VS Code terminal, replacing username with your username.
 ```
-ssh <your username>@ieng6.ucsd.edu
+ssh username@ieng6.ucsd.edu
 ```
 4. Enter your password. The terminal will stay empty, so type it out completely then return.
 ![Image](Images/login.png)
