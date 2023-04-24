@@ -30,5 +30,16 @@
   * `cd ..`: Moves one level out of the current folder.
   * `rmdir hello`: Deletes the folder called hello.
   * `cat`: Reads contents from a file. [Read the documentation.](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)
+  * `mv`: Moves files. [Read the documentation.](https://www.geeksforgeeks.org/mv-command-linux-examples/)
   * `cp`: Copies files. [Read the documentation.](https://www.geeksforgeeks.org/cp-command-linux-examples/)
-  ![Image](Images/commands.png)
+  ![Image](Images/example1.png)
+  Here is the terminal output for the following series of commands:
+  1. `pwd` tells us that the filepath of the current folder is "/home/linux/ieng6/cs15lsp23/cs15lsp23iy".
+  2. `ls` shows us that the current folder contains "perl5" and "wavelet".
+  3. `mkdir hello` creates a new folder called "hello".
+  4. `ls` visually confirms that the folder has been created.
+  5. `cd hello` changes the working directory to the newly created folder "hello".
+  6. `ls` generates no output because this folder is empty.
+  7. `cd ..` moves out of the folder "hello". We are back to where we were in the beginning.
+  8. `rmdir hello` deletes the "hello" folder. This only works if the folder is empty. `rm -r hello` is required to delete a folder along with everything inside of it. 
+  9. `ls` shows us that the "hello" folder is now gone.
