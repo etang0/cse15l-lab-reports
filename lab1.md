@@ -32,8 +32,8 @@
   * `cat`: Reads contents from a file. [Read the documentation.](https://www.geeksforgeeks.org/cat-command-in-linux-with-examples/)
   * `mv`: Moves files. [Read the documentation.](https://www.geeksforgeeks.org/mv-command-linux-examples/)
   * `cp`: Copies files. [Read the documentation.](https://www.geeksforgeeks.org/cp-command-linux-examples/)
+  Here are some examples of running commands.
   ![Image](Images/example1.png)
-  Here is the terminal output for the following series of commands:
   1. `pwd` tells us that the filepath of the current folder is "/home/linux/ieng6/cs15lsp23/cs15lsp23iy".
   2. `ls` shows us that the current folder contains "perl5" and "wavelet".
   3. `mkdir hello` creates a new folder called "hello".
@@ -43,3 +43,7 @@
   7. `cd ..` moves out of the folder "hello". We are back to where we were in the beginning.
   8. `rmdir hello` deletes the "hello" folder. This only works if the folder is empty. `rm -r hello` is required to delete a folder along with everything inside of it. 
   9. `ls` shows us that the "hello" folder is now gone.
+  ![Image](Images/example1.png)
+  1. `mkdir hello` creates a new folder called "hello".
+  2. `cd hello` moves into the new folder.
+  3. `cat > hello.txt  creates a new txt file and allows us to write stuff in it. I typed "hello there," hit return, then closed the file with control-c. 
