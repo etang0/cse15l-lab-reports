@@ -46,10 +46,10 @@
   8. `rmdir hello` deletes the "hello" folder. This only works if the folder is empty. `rm -r hello` is required to delete a folder along with everything inside of it. 
   9. `ls` shows us that the "hello" folder is now gone.
   
-  ![Image](Images/example1.png)
+  ![Image](Images/example2.png)
   1. `mkdir hello` creates a new folder called "hello".
   2. `cd hello` moves into the new folder.
-  3. `cat > hello.txt  creates a new txt file and allows us to write stuff in it. I typed "hello there," hit return, and then closed the file with control-c.
+  3. `cat > hello.txt` creates a new txt file and allows us to write stuff in it. I typed "hello there," hit return, and then closed the file with control-c.
   4. `cat hello.txt` prints out the contents of the given file.
   5. `cp hello.txt ..` copies the file into a new location. Here I specified the outer folder with `..`.
   6. `ls` shows that "hello.txt" is in the current folder.
