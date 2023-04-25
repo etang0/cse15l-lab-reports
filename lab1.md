@@ -48,4 +48,14 @@
   ![Image](Images/example1.png)
   1. `mkdir hello` creates a new folder called "hello".
   2. `cd hello` moves into the new folder.
-  3. `cat > hello.txt  creates a new txt file and allows us to write stuff in it. I typed "hello there," hit return, then closed the file with control-c. 
+  3. `cat > hello.txt  creates a new txt file and allows us to write stuff in it. I typed "hello there," hit return, and then closed the file with control-c.
+  4. `cat hello.txt` prints out the contents of the given file.
+  5. `cp hello.txt ..` copies the file into a new location. Here I specified the outer folder with `..`.
+  6. `ls` shows that "hello.txt" is in the current folder.
+  7. `cd ..` moves into the outer folder.
+  8. `ls` shows that there is another "hello.txt" file in this directory.
+  9. `mkdir hello2` creates a new folder.
+  10. `mv hello.txt hello2` moves the file "hello.txt" into the directory "hello2"
+  11. `ls` shows that the file is gone.
+  12. `ls hello2` shows us that a copy of "hello.txt" is in the "hello2" folder.
+  13. `ls hello` shows us that the original "hello.txt" is still in the "hello" folder.
