@@ -14,7 +14,7 @@
   2. Fill out the Account Lookup with your student username and ID. Your username is whatever is front of @ucsd.edu in your UCSD email.
   3. Click on the button that says "cs15lsp23XX". This is your course account username. Write it down somewhere because you will need it to login. ![Image](Images/accounts.png)
   4. Proceed to the password change tool to set your password. Make sure to enter your course account username and not your student username. ![Image](Images/tool.png)
-  6. Now you are ready to remotely access the ucsd servers. Type the following command into the VS Code terminal, replacing username with your username.
+  6. Now you are ready to remotely access the ucsd servers. Type the following command into the VS Code terminal, replacing "username" with your course account username.
   ```
   ssh username@ieng6.ucsd.edu
   ```
