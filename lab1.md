@@ -33,7 +33,8 @@
   * `mv`: Moves files. [Read the documentation.](https://www.geeksforgeeks.org/mv-command-linux-examples/)
   * `cp`: Copies files. [Read the documentation.](https://www.geeksforgeeks.org/cp-command-linux-examples/)
   
-  Here are some examples of running commands.
+  Here are some examples of running commands:
+  
   ![Image](Images/example1.png)
   1. `pwd` tells us that the filepath of the current folder is "/home/linux/ieng6/cs15lsp23/cs15lsp23iy".
   2. `ls` shows us that the current folder contains "perl5" and "wavelet".
