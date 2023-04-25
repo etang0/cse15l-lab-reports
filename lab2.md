@@ -1,4 +1,4 @@
-# Lab Report 1
+# Lab Report 2
 
 ## Part 1: StringServer
 Code for StringServer:
