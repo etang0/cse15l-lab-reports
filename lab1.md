@@ -44,6 +44,7 @@
   7. `cd ..` moves out of the folder "hello". We are back to where we were in the beginning.
   8. `rmdir hello` deletes the "hello" folder. This only works if the folder is empty. `rm -r hello` is required to delete a folder along with everything inside of it. 
   9. `ls` shows us that the "hello" folder is now gone.
+  
   ![Image](Images/example1.png)
   1. `mkdir hello` creates a new folder called "hello".
   2. `cd hello` moves into the new folder.
