@@ -18,7 +18,7 @@
   ```
   ssh username@ieng6.ucsd.edu
   ```
-  4. Enter your password. The terminal will stay empty, so type it out completely then return.
+  4. Enter your password. The terminal will stay empty, so type it out completely then return. Now you should be connected to the server.
   ![Image](Images/login.png)
 
 ## Trying Some Commands
