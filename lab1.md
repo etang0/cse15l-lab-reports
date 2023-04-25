@@ -3,7 +3,7 @@
 ## Installing VS Code for Mac
   1. [Go to the website for download options.](https://code.visualstudio.com/download)
   2. Download the version for Mac.
-  3. Open Finder
+  3. Open Finder.
   4. Move the downloaded file to the Applications folder. ![Image](Images/move.png)
   5. Open VS Code.
   6. Open a new terminal using the top menu bar. ![Image](Images/menu.png)
