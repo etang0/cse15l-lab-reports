@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 3
 Given a string and a txt file, `grep` will return all the lines in the file matching that string. In order to `grep` search the whole `./technical` folder, we need a list of all the filepaths ending in `.txt`. This can be done with the command  
 `find technical "*.txt" > technical_files.txt`.  
 `xargs`, `grep`, and `technical_files.txt` can now be used in combination to search every txt file in `./technical`.
