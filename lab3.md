@@ -1,10 +1,10 @@
 # Lab Report 2
-Given a string and a txt file, `grep` will return all the lines in the file matching that string. In order to `grep` search the whole `./technical` folder, we need a list of all the filepaths ending in `.txt`. This can be done with the command \n
-`find technical "*.txt" > technical_files.txt`. \n
+Given a string and a txt file, `grep` will return all the lines in the file matching that string. In order to `grep` search the whole `./technical` folder, we need a list of all the filepaths ending in `.txt`. This can be done with the command  
+`find technical "*.txt" > technical_files.txt`.  
 `xargs`, `grep`, and `technical_files.txt` can now be used in combination to search every txt file in `./technical`.
 
 ## 1. `grep -A num`
-By default, `grep` will return the only the line containing the match. This option tells `grep` to return additional lines after the matching line. This is useful for getting more context without needing to open the file. Similary, `grep -B num` returns additional lines in front, and `grep -C num` returns additional lines on both sides. \n
+By default, `grep` will return the only the line containing the match. This option tells `grep` to return additional lines after the matching line. This is useful for getting more context without needing to open the file. Similary, `grep -B num` returns additional lines in front, and `grep -C num` returns additional lines on both sides.  
 Source: `man grep`.
 
 Adding 1 additional line after each search result:
@@ -32,7 +32,7 @@ technical/plos/journal.pbio.0020276.txt-        homologous proteins. Taken toget
 ```
 
 ## 2. `grep -E`
-Chaining different patterns allows us to be more specific in our searches. However, it can be difficult to make complex searches with normal `grep`. This option makes it easier to build those patterns by enabling operators. \n
+Chaining different patterns allows us to be more specific in our searches. However, it can be difficult to make complex searches with normal `grep`. This option makes it easier to build those patterns by enabling operators.  
 Source: [thegeekstuff.com](https://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/).
 
 Searching for lines with "wolf" OR "shark":
@@ -57,7 +57,7 @@ xargs `grep` -E "wolf.*shark" < technical_files.txt
 technical/plos/journal.pbio.0020113.txt:        and wolf populations brought to the brink of extinction swordfish and sharks are the
 ```
 ## 3. `grep --include`
-The txt files in `./technical` are organized in several levels of subfolders. This options allows us to limit search the search to only one of those folders. `--exclude` works the opposite way. \n
+The txt files in `./technical` are organized in several levels of subfolders. This options allows us to limit search the search to only one of those folders. `--exclude` works the opposite way.  
 Source: `man grep`.
 
 Searching for lines with "shark" and the filepath must contain `biomed`:
@@ -77,7 +77,7 @@ technical/plos/journal.pbio.0020113.txt:        Despite the controversy, most ag
 ```
 
 ## 4. `grep -i`
-This makes the search pattern not case-sensitive.
+This makes the search pattern not case-sensitive.  
 Source: [warp.dev](https://www.warp.dev/terminus/make-grep-case-insensitive#:~:text=To%20recap%2C%20the%20grep%20command,or%20—ignore%2Dcase%20flag.)
 
 Searching for "laden" without case-sensitivity:
