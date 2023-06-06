@@ -25,5 +25,5 @@ Tracking keystrokes in vim and using git commands. Terminal was cleared between 
 
 ## 6. Commit and push the resulting change to your Github account.
 * `git add List`, `<tab>`, `<enter>` Added the file with changes to the staging area. Used `<tab>` to autocomplete the file name.
-* `git commit`, `<enter>, `Fixed by changing last "index1" to "index2"`, `<esc>`, `:wq`, `<enter>` Committed the changes with a comment.
+* `git commit`, `<enter>`, `Fixed by changing last "index1" to "index2"`, `<esc>`, `:wq`, `<enter>` Committed the changes with a comment.
 * `git push`, `<enter>` Pushed changes to Github.
