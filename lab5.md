@@ -11,7 +11,7 @@ Chapter 2. TA Response
   
   
 Chapter 3. Student Success?  
-The student must realize that they need to add grading-area to the CPATH definition.
+The student must realize that they need to add grading-area to the CPATH definition.  
   Before:
   ![Image](Images/before1.png)
   After:
