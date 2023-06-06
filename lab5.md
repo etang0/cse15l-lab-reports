@@ -1,30 +1,30 @@
 # Lab Report 5
 
 ## Debugging Scenario
-Chapter 1. Student Posts on EdStem
+**Chapter 1. Student Posts on EdStem**. 
 > Hello I am on a mac. When I run the script it says it can't find TestListExamples. I'm sure that the filepath is correct. The working directory is always list-examples-grader so I'm compiling grading-area/ListExamples.java and grading-area/TestListExamples.java. Send help.
 ![Image](Images/Buggy.png)
   
   
-Chapter 2. TA Response
+**Chapter 2. TA Response**. 
 > The filepaths in line 36 look okay so that leaves the classpath. The line where you defined CPATH is not visible in the screenshot. Can you make sure you have all relevant directories listed there? Also, in line 37 the way you have it written would cause another error. Right now it's trying to run a class called "grading-area/TestListExamples". In other words, it thinks the whole thing is a file name and not a file path.
   
   
-Chapter 3. Student Success?  
+**Chapter 3. Student Success?** 
 The student must realize that they need to add grading-area to the CPATH definition.  
-  Before:
+    Before:
   ![Image](Images/before1.png)
-  After:
+    After:
   ![Image](Images/after1.png)
 Also, they need to remove grading-area from the javac line.  
-  Before:
+    Before:
   ![Image](Images/before2.png)
-  After:
+    After:
   ![Image](Images/after2.png)
 Then the output will be correct.  
-  Before:
+    Before:
   ![Image](Images/before3.png)
-  After:
+    After:
   ![Image](Images/after3.png)
 
 Chapter 4: Setup
