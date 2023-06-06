@@ -3,7 +3,7 @@
 ## Debugging Scenario
 Chapter 1. Student Posts on EdStem.
 > Hello I am on a mac. When I run the script it says it can't find TestListExamples. I'm sure that the filepath is correct. The working directory is always list-examples-grader so I'm compiling grading-area/ListExamples.java and grading-area/TestListExamples.java. Send help.
-![Image](Images/buggy.png)
+![Image](Images/Buggy.png)
   
 Chapter 2. TA Response.
 > The filepaths in line 36 look okay so that leaves the classpath. The line where you defined CPATH is not visible in the screenshot. Can you make sure you have all relevant directories listed there? Also, in line 37 the way you have it written would cause another error. Right now it's trying to run a class called "grading-area/TestListExamples". In other words, it thinks the whole thing is a file name and not a file path.
