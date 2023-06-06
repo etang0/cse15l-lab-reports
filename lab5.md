@@ -16,14 +16,15 @@ The student must realize that they need to add grading-area to the CPATH definit
   ![Image](Images/before1.png)
   After:
   ![Image](Images/after1.png)
-Also, they need to remove grading-area from the javac line.
+Also, they need to remove grading-area from the javac line.  
   Before:
   ![Image](Images/before2.png)
   After:
   ![Image](Images/after2.png)
-Then the output will be correct.
+Then the output will be correct.  
   Before:
   ![Image](Images/before3.png)
+  After:
   ![Image](Images/after3.png)
 
 Chapter 4: Setup
