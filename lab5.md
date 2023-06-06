@@ -11,18 +11,18 @@ Chapter 2. TA Response.
 Chapter 3. Student Success?
 The student must realize that they need to add grading-area to the CPATH definition.
   Before:
-  ![Image](before1.png)
+  ![Image](Images/before1.png)
   After:
-  ![Image](after1.png)
+  ![Image](Images/after1.png)
 Also, they need to remove grading-area from the javac line.
   Before:
-  ![Image](before2.png)
+  ![Image](Images/before2.png)
   After:
-  ![Image](after2.png)
+  ![Image](Images/after2.png)
 Then the output will be correct.
   Before:
-  ![Image](before3.png)
-  ![Image](after3.png)
+  ![Image](Images/before3.png)
+  ![Image](Images/after3.png)
 
 Chapter 4: Setup
 This scenario uses code from week 6. Running `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` caused an error because it couldn't compile one of the java files. This is because the classpath was missing an element. The java file was in a subdirectory, which needed to be specified in the `$CPATH` variable. After fixing the classpath, the student would have enountered another error. When running the `java` command, it expects a file name and not a file path. There shouldn't be any `/` in the argument being passed.
